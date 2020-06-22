@@ -242,6 +242,16 @@ func Xpx(amount uint64) *Mosaic {
 	return newMosaicPanic(XpxNamespaceId, Amount(amount))
 }
 
+// returns EPCC mosaic with passed amount
+func Epcc(amount uint64) *Mosaic {
+	return newMosaicPanic(EpccNamespaceId, Amount(amount))
+}
+
+// returns stable coin (MYR) mosaic with passed amount
+func StableCoinMyr(amount uint64) *Mosaic {
+	return newMosaicPanic(MyrMosaicId, Amount(amount))
+}
+
 // returns XEM with actual passed amount
 func XemRelative(amount uint64) *Mosaic {
 	return Xem(1000000 * amount)
@@ -250,6 +260,16 @@ func XemRelative(amount uint64) *Mosaic {
 // returns XPX with actual passed amount
 func XpxRelative(amount uint64) *Mosaic {
 	return Xpx(1000000 * amount)
+}
+
+// returns EPCC with actual passed amount
+func EpccRelative(amount uint64) *Mosaic {
+	return Epcc(1000000 * amount)
+}
+
+// returns stable coin (MYR) with actual passed amount
+func StableCoinMyrRelative(amount uint64) *Mosaic {
+	return StableCoinMyr(1000000 * amount)
 }
 
 // returns storage mosaic with passed amount

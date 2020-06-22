@@ -23,6 +23,12 @@ var StreamingNamespaceId, _ = NewNamespaceIdFromName("prx.sm")
 // namespace id for suepr contract mosaic
 var SuperContractNamespaceId, _ = NewNamespaceIdFromName("prx.sc")
 
+// namespace id for EPCC mosaic
+var EpccNamespaceId, _ = NewNamespaceIdFromName("besc.epcc")
+
+// mosaic id for EPCC stable coin (MYR) mosaic
+var MyrMosaicId, _ = NewMosaicId(4755544068047364211) // NewNamespaceIdFromName("besc.myr")
+
 // routes for AccountService
 const (
 	accountsRoute                 = "/account"
