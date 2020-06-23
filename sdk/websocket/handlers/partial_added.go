@@ -5,8 +5,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk"
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk/websocket/subscribers"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk/websocket/subscribers"
 )
 
 func NewPartialAddedHandler(messageMapper sdk.PartialAddedMapper, handlers subscribers.PartialAdded) *partialAddedHandler {

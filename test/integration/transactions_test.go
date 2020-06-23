@@ -10,7 +10,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk/websocket"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk/websocket"
 	math "math/rand"
 	"sync"
 	"testing"
@@ -18,7 +18,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk"
 )
 
 //

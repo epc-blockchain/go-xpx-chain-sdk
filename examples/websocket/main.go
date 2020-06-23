@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk"
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk/websocket"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk/websocket"
 )
 
 const (

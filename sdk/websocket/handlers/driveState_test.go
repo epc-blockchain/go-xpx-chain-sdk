@@ -1,10 +1,10 @@
 package handlers
 
 import (
-	mappers "github.com/proximax-storage/go-xpx-chain-sdk/mocks"
-	mocksSubscribers "github.com/proximax-storage/go-xpx-chain-sdk/mocks/websocket/subscribers"
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk"
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk/websocket/subscribers"
+	mappers "github.com/epc-blockchain/go-xpx-chain-sdk/mocks"
+	mocksSubscribers "github.com/epc-blockchain/go-xpx-chain-sdk/mocks/websocket/subscribers"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk/websocket/subscribers"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"testing"

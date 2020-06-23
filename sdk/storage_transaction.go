@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/google/flatbuffers/go"
-	"github.com/proximax-storage/go-xpx-chain-sdk/transactions"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/transactions"
 )
 
 func NewPrepareDriveTransaction(

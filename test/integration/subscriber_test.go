@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk"
 )
 
 const (

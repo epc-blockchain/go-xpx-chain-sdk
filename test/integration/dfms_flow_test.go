@@ -6,7 +6,7 @@ package integration
 
 import (
 	"fmt"
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk"
 	"github.com/stretchr/testify/assert"
 	"testing"
 	"time"

@@ -1,7 +1,7 @@
 package subscribers
 
 import (
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk"
 	"sync"
 )
 

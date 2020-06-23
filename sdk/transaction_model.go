@@ -18,7 +18,7 @@ import (
 	"github.com/proximax-storage/go-xpx-crypto"
 	"github.com/proximax-storage/go-xpx-utils"
 
-	"github.com/proximax-storage/go-xpx-chain-sdk/transactions"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/transactions"
 )
 
 type Transaction interface {

@@ -6,8 +6,8 @@ import (
 	"github.com/pkg/errors"
 	"sync"
 
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk"
-	"github.com/proximax-storage/go-xpx-chain-sdk/sdk/websocket/handlers"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk"
+	"github.com/epc-blockchain/go-xpx-chain-sdk/sdk/websocket/handlers"
 )
 
 func NewRouter(uid string, publisher MessagePublisher, topicHandlers TopicHandlersStorage) Router {
