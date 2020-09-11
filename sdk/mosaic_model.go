@@ -247,9 +247,9 @@ func Network(amount uint64) *Mosaic {
 	return newMosaicPanic(NetworkNamespaceId, Amount(amount))
 }
 
-// returns stable coin mosaic with passed amount
-func StableCoin(amount uint64) *Mosaic {
-	return newMosaicPanic(StableCoinMosaicId, Amount(amount))
+// returns credit mosaic with passed amount
+func Credit(amount uint64) *Mosaic {
+	return newMosaicPanic(CreditNamespaceId, Amount(amount))
 }
 
 // returns XEM with actual passed amount
@@ -267,9 +267,9 @@ func NetworkRelative(amount uint64) *Mosaic {
 	return Network(1000000 * amount)
 }
 
-// returns stable coin with actual passed amount
-func StableCoinRelative(amount uint64) *Mosaic {
-	return StableCoin(1000000 * amount)
+// returns credit with actual passed amount
+func CreditRelative(amount uint64) *Mosaic {
+	return Credit(1000000 * amount)
 }
 
 // returns storage mosaic with passed amount
